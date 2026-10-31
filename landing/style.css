@@ -107,6 +107,21 @@ h1 { font-size: clamp(2.3rem, 5.2vw, 3.8rem); line-height: 1.04; letter-spacing:
 .tl-caption { margin-top: 18px; color: var(--muted); }
 @media (max-width: 760px) { .tl-events { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
+/* Versus */
+.versus { padding-block-start: 0; }
+.versus-sub { color: var(--muted); margin-top: 14px; max-width: 46em; font-size: 1.08rem; }
+.versus-grid { margin-top: 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.vs-col { border: 1px solid var(--line); border-radius: 20px; padding: 26px 28px; display: grid; gap: 14px; align-content: start; min-width: 0; }
+.vs-col h3 { color: var(--muted); }
+.vs-col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.vs-col li { position: relative; padding-left: 26px; color: var(--muted); }
+.vs-col li::before { content: "–"; position: absolute; left: 4px; color: var(--muted); }
+.vs-col.us { background: var(--panel); border-color: transparent; box-shadow: inset 0 0 0 1.5px var(--teal); }
+.vs-col.us h3 { color: var(--fg); }
+.vs-col.us li { color: var(--fg); }
+.vs-col.us li::before { content: "✓"; left: 0; color: var(--teal); font-weight: 700; }
+@media (max-width: 760px) { .versus-grid { grid-template-columns: 1fr; } }
+
 /* Features */
 .features { background: var(--bg-raise); }
 .feature-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(20px, 3vw, 32px); }
