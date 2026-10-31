@@ -14,7 +14,7 @@
 
 **Does it record video?** It records audio throughout; you add photos and short clips at the moments that matter.
 
-**Is there an AI summary?** No. Sessionify keeps everything on-device and doesn't send content to the cloud.
+**Is there an AI summary?** Not built in. The transcript is made on your device and nothing is sent to the cloud. Users who want a summary can make one from the transcript with Apple Intelligence on their own device.
 
 **Does it work with PowerPoint or Keynote?** Not yet. PDFs, photos and notes are supported.
 
