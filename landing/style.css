@@ -233,3 +233,21 @@ details p { color: var(--muted); padding-bottom: 18px; max-width: 62ch; }
 .foot a { color: var(--muted); }
 .foot a:hover { color: var(--fg); }
 .mail { user-select: all; }
+
+/* Support and policy pages (site root) */
+.nav nav a[aria-current="page"], .foot a[aria-current="page"] { color: var(--fg); }
+.page-hero { background: radial-gradient(80% 120% at 90% 0%, rgba(46,150,255,.16), transparent 60%), linear-gradient(180deg, var(--bg-raise), var(--bg)); padding-block: clamp(40px, 7vw, 72px) clamp(28px, 4vw, 40px); }
+.doc-wrap { max-width: 768px; }
+.page-hero .doc-wrap { display: grid; gap: 16px; }
+.page-hero h1 { font-size: clamp(2rem, 4.4vw, 3rem); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 18px 22px; }
+.card p { color: var(--fg); }
+.doc-section { padding-block: 8px clamp(56px, 8vw, 96px); }
+.doc h2 { font-size: 1.45rem; margin-top: 44px; }
+.doc h3 { font-size: 1.08rem; margin-top: 26px; }
+.doc p { color: #CDD3F0; margin-top: 10px; max-width: 68ch; }
+.doc strong { color: var(--fg); }
+.doc a, .card a { color: var(--teal); text-underline-offset: 3px; }
+.doc code { font-family: var(--mono); font-size: 0.9em; background: var(--panel); border: 1px solid var(--line); padding: 1px 6px; border-radius: 6px; }
+.doc-more { margin-top: 40px !important; padding-top: 24px; border-top: 1px solid var(--line); }
+.doc > h2:first-child { margin-top: 20px; }
